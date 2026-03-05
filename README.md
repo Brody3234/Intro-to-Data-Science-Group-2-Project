@@ -1,7 +1,7 @@
 # Factors Contributing to House Prices in the United States
 
 ## Team Members
-Brody Hughson, Cesar Fontanelli, Marris Jones, Pedro Liriano
+Brody Hughson, Cesar Fontanelli, Marris Jones, Pedro Liriano, Jeremiah Tatum
 
 ## Project Goal
 Analyse which factors are most associated with U.S. home prices (2020-2024) using merged public datasets and predictive modeling.
