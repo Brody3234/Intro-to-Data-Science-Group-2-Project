@@ -4,15 +4,15 @@
 Brody Hughson, Cesar Fontanelli, Marris Jones, Pedro Liriano, Jeremiah Tatum
 
 ## Project Goal
-Analyse which factors are most associated with U.S. home prices (2020-2024) using merged public datasets and predictive modeling.
+Analyze which factors are most associated with U.S. home prices (2020-2024) using merged public datasets and predictive modeling.
 
 ## Data Sources
-- U.S. Census Population Estimates (citis/towns)
+- U.S. Census Population Estimates (cities/towns)
 - Zillow Home Value Index (ZHVI)
 - Zillow Observed Rent Index (ZORI)
-- Residential Construction Premits by County
+- Residential Construction Permits by County
 - ACS 5-Year Housing Estimates by State
-- Fred 30-Year Housing Estimates by Sate
+- FRED 30-Year Housing Estimates by State
 
 ## Repository Files
 - \ IDS Group 2 Project Report.ipynb' - main analysis notebook
@@ -22,7 +22,7 @@ Analyse which factors are most associated with U.S. home prices (2020-2024) usin
 '''bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirments.txt
+pip install -r requirements.txt
 '''
 
 ## Run
@@ -34,10 +34,10 @@ Then open \'IDS Group 2 Project Report.ipynb\' and run all cells from top to bot
 
 ## Methods Summary
 - Data cleaning and null handling
-- Year-level feature engineering (2020-20204)
+- Year-level feature engineering (2020-2024)
 - Inter-table merges by city/state/year
 - Exploratory data analysis and trend charts
-- Model comparison: Linear Regression, Random Forcest, Gradient Boosting
+- Model comparison: Linear Regression, Random Forest, Gradient Boosting
 
 ## Deliverables
 - Final notebook with outputs
